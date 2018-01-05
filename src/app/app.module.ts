@@ -9,6 +9,7 @@ import { TitleComponent } from './title.component';
 @NgModule({
   declarations: [
     AppComponent,
+    
     TitleComponent
     
   ],
