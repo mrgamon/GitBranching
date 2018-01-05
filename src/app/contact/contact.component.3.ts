@@ -1,8 +1,7 @@
-/ Exact copy except import UserService from core
 import { Component, OnInit }      from '@angular/core';
 
 import { Contact, ContactService } from './contact.service';
-import { UserService }             from '../core/user.service';
+import { UserService }    from '../user.service';
 
 @Component({
   selector: 'app-contact',
@@ -51,4 +50,3 @@ export class ContactComponent implements OnInit {
     setTimeout(() => this.msg = '', 1500);
   }
 }
-
